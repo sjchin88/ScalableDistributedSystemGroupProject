@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26033298-54a8-4265-a99d-cf1abb85b3f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApachePoolTestDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientApacheDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientAsyncDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientPoolAsyncDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientPoolAsyncSingleDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientPoolDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DriverDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HttpAsyncClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PoolAsyncClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PoolAsyncSingleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PoolClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumerClientDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RequestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RequestSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/.run/LikeRecorded_ori.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/.run/LikeRecorded_server.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/.run/LikeRecorder_numOnly.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/ConsumerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/LikeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/LikesRecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/Recorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/SwipeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/main/java/SwipesRecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumers/src/test/java/MessageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunsSummary.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientRecordingDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientRecordingDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Consumers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumers/src/main/java/LikeRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumers/src/main/java/SwipeRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/artifacts/Server_war_exploded/WEB-INF/classes/server/SwipeDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/artifacts/Server_war_exploded/WEB-INF/classes/server/SwipeDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/artifacts/Server_war_exploded/WEB-INF/classes/server/SwipeResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/artifacts/Server_war_exploded/WEB-INF/classes/server/SwipeResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/artifacts/Server_war_exploded/WEB-INF/classes/server/SwipeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/artifacts/Server_war_exploded/WEB-INF/classes/server/SwipeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/artifacts/Twinder/Twinder.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/artifacts/Twinder/Twinder.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/server/RabbitMQChannelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/server/RabbitMQChannelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/server/RabbitMQChannelPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/server/RabbitMQChannelPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/server/SwipeDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/server/SwipeDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/server/SwipeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/server/SwipeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/server/SwipeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/server/SwipeServer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LreeZdqVynjfrG611HYyhcPZh0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jinqw/OneDrive/Desktop Project/bsds-assignment2/Client"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ClientPoolAsyncSingleDriver">
+    <configuration name="ApachePoolTestDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePoolTestDriver" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientPoolAsyncSingleDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientPoolAsyncSingleDriver" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientPoolDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientPoolDriver" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DriverDriver" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumerClientDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumerClientDriver" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientPoolAsyncSingleDriver" />
+        <item itemvalue="Application.ClientPoolDriver" />
+        <item itemvalue="Application.DriverDriver" />
+        <item itemvalue="Application.ProducerConsumerClientDriver" />
+        <item itemvalue="Application.ApachePoolTestDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26033298-54a8-4265-a99d-cf1abb85b3f3" name="Changes" comment="" />
+      <created>1676633725721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676633725721</updated>
+      <workItem from="1676633727065" duration="2168000" />
+      <workItem from="1676821024194" duration="45548000" />
+      <workItem from="1677173833846" duration="9558000" />
+      <workItem from="1677509922752" duration="22779000" />
+      <workItem from="1677617561373" duration="1318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

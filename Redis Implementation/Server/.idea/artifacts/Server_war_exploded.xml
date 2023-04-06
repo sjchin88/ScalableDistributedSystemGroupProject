@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Server_war_exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Server/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="google.code.gson" />
+          <element id="library" level="project" name="Maven: com.rabbitmq:amqp-client:5.16.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.11.1" />
+          <element id="library" level="project" name="Maven: io.lettuce:lettuce-core:6.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.4.27" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-native-unix-common:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.89.Final" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
