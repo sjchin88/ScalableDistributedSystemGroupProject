@@ -24,7 +24,7 @@ public class RedisSwipeRecThread extends RedisConsumerThread {
         for(int i = 0; i < BATCH_SIZE; i++){
           String[] swipes = this.buffer.poll(200, TimeUnit.MILLISECONDS);
           if(swipes!=null){
-            RedisFuture<Long> future = this.redCommand.zadd(swipes[0], swipes[1]);
+            RedisFuture<Long> future = this.redCommand.zadd(swipes[0], 0, swipes[1]);
             futureList.add(future);
           } else {
             break;
