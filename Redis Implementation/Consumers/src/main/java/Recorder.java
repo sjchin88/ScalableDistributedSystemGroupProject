@@ -27,7 +27,7 @@ public class Recorder {
    * Default server address
    */
   //protected static String RABBIT_HOST = "localhost";
-  protected static String RABBIT_HOST = "35.165.32.0";
+  protected static String RABBIT_HOST = "44.230.19.235";
   protected static String ADMIN_NAME = "csj";
   protected static String ADMIN_PASS = "Gu33ssm3";
 
