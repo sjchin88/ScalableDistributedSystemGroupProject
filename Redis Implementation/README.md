@@ -13,10 +13,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>-->
 
-  <h1 align="center">Building Scalable Distribution System Assignment 2</h1>
+  <h1 align="center">Building Scalable Distribution System Assignment 4</h1>
 
   <p align="center">
-    Codes for completing Assignment 2
+    Codes for completing Assignment 4
   </p>
 </div>
 
