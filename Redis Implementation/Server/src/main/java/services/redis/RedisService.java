@@ -11,8 +11,8 @@ import java.util.concurrent.ExecutionException;
  * Represent an RedisService class to perform required redis operation
  */
 public class RedisService {
-  //private static final String REDIS_HOST = "redis://127.0.0.1:6379";
-  private static final String REDIS_HOST = "redis://foobared2@54.68.45.97:6379";
+  private static final String REDIS_HOST = "redis://127.0.0.1:6379";
+  //private static final String REDIS_HOST = "redis://foobared2@54.68.45.97:6379";
   private static final String PREFIX_LIKES_CNT = "Likes:";
   private static final String PREFIX_DISLIKES_CNT = "Dislikes:";
   private static final String PREFIX_SWIPE_REC = "Swiper:";
