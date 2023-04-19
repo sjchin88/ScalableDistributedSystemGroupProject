@@ -22,8 +22,8 @@ public class RabbitMQChannelFactory extends BasePooledObjectFactory<Channel> {
   /**
    * Address of the RabbitMQ server, change it to IP address when hosting on EC-2
    */
-  //private static String RABBIT_HOST = "localhost";
-  private static String RABBIT_HOST = "44.230.19.235";
+  private static String RABBIT_HOST = "localhost";
+  //private static String RABBIT_HOST = "44.230.19.235";
   private static String RABBIT_USER = "csj";
   private static String RABBIT_PASS = "Gu33ssm3";
   private ConnectionFactory rabbitFactory;
@@ -48,8 +48,8 @@ public class RabbitMQChannelFactory extends BasePooledObjectFactory<Channel> {
     // Create new connection to the rabbit MQ
     this.rabbitFactory = new ConnectionFactory();
     this.rabbitFactory.setHost(RABBIT_HOST);
-    this.rabbitFactory.setUsername(RABBIT_USER);
-    this.rabbitFactory.setPassword(RABBIT_PASS);
+    //this.rabbitFactory.setUsername(RABBIT_USER);
+    //this.rabbitFactory.setPassword(RABBIT_PASS);
     Connection rabbitMQConn;
     try {
       rabbitMQConn = this.rabbitFactory.newConnection();

@@ -62,10 +62,14 @@ public class GetServer extends HttpServlet implements Server {
    */
   private void getPotentialMatches(HttpServletResponse response, String swiperId) {
     try{
+      long start = System.nanoTime();
       List<String> matches = this.redisService.getMatches(swiperId);
+      long end = System.nanoTime();
+      double latency = (end - start) / 1000_000.0;
       JsonObject jsonObject = new JsonObject();
       JsonArray jsonArray = this.gson.toJsonTree(matches).getAsJsonArray();
       jsonObject.add("matchList", jsonArray);
+      jsonObject.addProperty("latency",latency);
       response.setStatus(HttpServletResponse.SC_OK);
       response.getOutputStream().print(this.gson.toJson(jsonObject));
       response.getOutputStream().flush();
@@ -77,10 +81,14 @@ public class GetServer extends HttpServlet implements Server {
   private void getStat(HttpServletResponse response, String swiperId) throws IOException {
     try{
       JsonObject jsonObject = new JsonObject();
+      long start = System.nanoTime();
       int likes = this.redisService.getLikesCount(swiperId);
       int dislikes = this.redisService.getDislikesCount(swiperId);
+      long end = System.nanoTime();
+      double latency = (end - start) / 1000_000.0;
       jsonObject.addProperty("numLikes", likes );
       jsonObject.addProperty("numDislikes",dislikes);
+      jsonObject.addProperty("latency", latency);
       response.setStatus(HttpServletResponse.SC_OK);
       response.getOutputStream().print(this.gson.toJson(jsonObject));
       response.getOutputStream().flush();
